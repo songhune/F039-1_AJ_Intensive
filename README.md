@@ -1,10 +1,10 @@
 # F039-1_AJ_Intensive
-2018 Intensive Course for Ajou University_DL
-Ajou University
-Department of Software
+# 2018 Intensive Course for Ajou University_DL
+# Ajou University
+## Department of Software
 
-Intensive Course
-Team Project #3
+## Intensive Course
+## Team Project #3
 
 mid due: 16  December 2018
 final due: 21 December 2018
@@ -12,40 +12,40 @@ final due: 21 December 2018
 
 
 
-프로젝트 목표
+### 1. 프로젝트 목표
 
-딥러닝 메커니즘과 그 접근법을 소개한다.
-학생들이 Tensorflow 프레임워크를 설치하고 실행하도록 조장한다.
-파이썬 언어를 사용하여 학생 자연어 응용 프로그램을 개발한다.
-NLP 작업을 수행하기 위해 학생의 종단 간 모델을 구현하는 법을 소개한다.
+- 딥러닝 메커니즘과 그 접근법을 소개한다.
+- 학생들이 Tensorflow 프레임워크를 설치하고 실행하도록 조장한다.
+- 파이썬 언어를 사용하여 학생 자연어 응용 프로그램을 개발한다.
+- NLP 작업을 수행하기 위해 학생의 종단 간 모델을 구현하는 법을 소개한다.
 
-프로젝트 설명
+### 2. 프로젝트 설명
 
 자연어 처리 (NLP)는 정보 시대의 가장 중요한 기술 중 하나입니다. 언어 모델의 복잡성을 이해하는 것은 인공 지능의 중요한 부분이기도합니다. 사람들이 자연어로 의사 소통하기 때문에 NLP의 응용 프로그램은 거의 모든 곳에서 이루어집니다 : 웹 검색, 광고, 이메일, 번역 등. 최근 심층 학습 접근법의 재창조에 의한 NLP 작업의 상당한 개선이 단일 종단 간 모델을 통해 다양한 NLP 작업을 해결할 수 있습니다. 이 프로젝트는 학생들에게 자신의 신경망 모델을 구현, 훈련, 디버그, 시각화 및 발명할 수 있도록합니다.
 이 프로젝트에서는 상당한 백본 아키텍처를 가진 각 그룹에 5 개의 프로젝트 작업이 제공됩니다. 그룹이 제안된 작업을 만족시키지 못하면 코스 강사와의 확인 후 자신의 NLP 작업을 선택할 수 있습니다. 다음은 간단한 설명이 포함된 프로젝트 작업입니다.
-Word prediction
-Chinese Pinyin to Chinese letters
-Roman expression Japanese to Kana
-Making TTS with his voice
-Finding similar voice with me
+- Word prediction
+- Chinese Pinyin to Chinese letters
+- Roman expression Japanese to Kana
+- Making TTS with his voice
+- Finding similar voice with me
 
 
-발표물
-밢표자료
+### 3. 발표물
+- 밢표자료
 중간 presentation – 16 Dec 2018
 최종 presentation – 21 Dec 2018
 소스코드 (Github): 최종발표일까지
 최종보고서t: 학기말까지 (21 Dec 2018)
 학생들은 자신의 과제에 대한 설명을 포함하여 모델을 보여주거나 시연해야 합니다
 
-평가
-텐서플로우 플로우
-각 팀 구성원의 기여 부분
-현 무결성 및 문서 상세 정보
-실험 결과
-피어 평가가 포함된 프리젠테이션 자료입니다.
+### 4. 평가
+- 텐서플로우 플로우
+- 각 팀 구성원의 기여 부분
+- 현 무결성 및 문서 상세 정보
+- 실험 결과
+- 피어 평가가 포함된 프리젠테이션 자료입니다.
 
-Postscript
+#### Postscript
 너무 크지 않은 딥러닝 프로젝트를 바탕으로 프로젝트를 4~5개정도 미리  추천할까 합니다. 저는 언어 쪽 외에는 잘 몰라서 대부분 언어 관련 프로젝트들입니다. 제가 한 (파일럿) 프로젝트들과 많이 엮여 있는데 저는 제 식대로 한 게 많아서 사실 각자 자기 식대로 주제를 디자인할 수 있습니다. 본 프로젝트는 제가 있는 커뮤니티(TFKorea)의 멤버 박규병님의 프로젝트를 기초로 합니다. 물론, 모든 프로젝트는 오픈소스이므로 저작상의 문제는 전혀 없습니다.
 1. Word prediction (https://github.com/Kyubyong/word_prediction 참고)
 언어 모델은 nlp의 101이고 그 자체로 응용되는 분야가 현재/다음 단어를 얼마나 잘 예측하느냐 하는 것입니다. 모바일 키보드의 성능 평가 요소 중 하나기도 한 이 프로젝트는 실력이 가장 떨어지는 팀이 하기에 좋을 것 같습니다.
