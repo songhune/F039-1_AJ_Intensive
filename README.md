@@ -1,5 +1,5 @@
-## F039-1_AJ_Intensive
-# 2018 Intensive Course for Ajou University_DL
+# F039-1_AJ_Intensive
+## 2018 Intensive Course for Ajou University_DL
 
 *  201621048 신희수 [effya](https://github.com/effya)
 *  201620923 정다원
