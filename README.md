@@ -6,8 +6,7 @@
 ## Intensive Course
 ## Team Project #3
 
-mid due: 16  December 2018
-final due: 21 December 2018
+final due: 19 December 2018
 
 
 
