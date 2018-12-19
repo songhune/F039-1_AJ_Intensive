@@ -7,8 +7,17 @@
 
 ## About Project
 
+## Requirements
+* NumPy >= 1.11.1
+* TensorFlow == 1.2
+* regex (Enables us to use convenient regular expression posix)
+* janome (for morph analysis)
+* romkan (for converting kana to romaji)
+
 ## Related Concepts
-RNN, beam search 
+RNN, beam search
+
+## How to operate
 
 ## How did we improve
 빔 서치 통해서 결과 improve된 것 보여주기
