@@ -16,7 +16,7 @@
 - lxml >= 3.6.4.
 - nltk >= 3.2.1.
 - regex
-* ***주의*** 위 requirements는 기존 프로그램에서 요구되어진 환경설정으로, 만약 최신 버젼으로 pip install을 할 경우에는 함수의 파라미터가 다르기 때문에 오류가 발생할 수 있다.
+* ***주의***: 위 requirements는 기존 프로그램에서 요구되어진 환경설정으로, 만약 최신 버젼으로 pip install을 할 경우에는 함수의 파라미터가 다르기 때문에 오류가 발생할 수 있다.
 
 ## Work Flow(실제로 사용하지 않음)
 
@@ -30,8 +30,9 @@
 
 ## You should follow these WorkFlow. 
 
-* STEP 1. 해당 사이트에 들어가서 파일을 다운로드 한 후, 'data/' 폴더 안에 복사한다. (https://drive.google.com/open?id=0B0ZXk88koS2KemFWdFNoSnBfNDg) 
-* SETP 2. 해당 사이트에서 파일을 다운로드 한 후 `asset/train`폴더 안에 복사한다. [the pre-trained model files](https://drive.google.com/open?id=0B0ZXk88koS2KNHBuM09kSXFJNzA)
+* STEP 1. 해당 사이트에 들어가서 파일을 다운로드 한 후, 'data/' 폴더 안에 복사한다.
+=> *https://drive.google.com/open?id=0B0ZXk88koS2KemFWdFNoSnBfNDg* 
+* SETP 2. 해당 사이트에서 파일을 다운로드 한 후 `asset/train`폴더 안에 복사한다.    => *https://drive.google.com/open?id=0B0ZXk88koS2KNHBuM09kSXFJNzA*
 * `eval.py` 을 실행한다. 위 Work Flow와 같이 output_{}_rk_{}.csv 파일이 생성된다면 성공이다.
 
 ## Changes of Project
