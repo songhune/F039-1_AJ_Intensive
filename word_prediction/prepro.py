@@ -13,7 +13,7 @@ class Hyperparams:
     '''Hyper parameters'''
     batch_size = 64
     embed_dim = 300
-    seqlen = 50  # We will predict the next/current word based on the preceding 50 characters.
+    seqlen = 60             # We will predict the next/current word based on the preceding 50 characters.
 
 def load_char_vocab():
     vocab = "EU abcdefghijklmnopqrstuvwxyz0123456789-.,?!'" # E: Empty, U:Unknown
@@ -28,7 +28,7 @@ def create_word_vocab():
     
     words = codecs.open('data/en_wikinews.txt', 'r', 'utf-8').read().split()
     word2cnt = Counter(chain(words))
-    vocab = ["<EMP>", "<UNK>"] + [word for word, cnt in word2cnt.items() if cnt > 50]
+    vocab = ["<EMP>", "<UNK>"] + [word for word, cnt in word2cnt.items() if cnt > 60]
     word2idx = {word:idx for idx, word in enumerate(vocab)}
     idx2word = {idx:word for idx, word in enumerate(vocab)} 
     pickle.dump( (word2idx, idx2word), open("data/word_vocab.pkl", "wb") )
