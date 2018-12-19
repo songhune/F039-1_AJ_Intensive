@@ -20,8 +20,9 @@ RNN, beam search
 ## How to operate
 ### Training
 * STEP 1. Run python annotate.py.
-* STEP 2. Run python prepro.py. Or download the preprocessed files.
-* STEP 3. Run train.py. Or download the pretrained files.
+* STEP 2. Run python prepro.py. Or download the [preprocessed files](https://www.dropbox.com/s/tv81rxcjr3x9eh1/preprocessed.zip?dl=0).
+* STEP 3. Run train.py. Or download the [pretrained files(trained 13 times)](https://www.dropbox.com/s/wrbr7tnf4zva4bj/logdir.zip?dl=0) or [pretrained files(trained 1 times)](https://drive.google.com/file/d/1V8cHEEq6gMgEKQBKT7_4C3zNy-1HSloE/view?usp=sharing).
+
 
 ### Testing
 * STEP 1. Run eval.py.
