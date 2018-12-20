@@ -12,6 +12,15 @@
 * Making TTS with his voice
 
 
+## Requirements
+
+  * NumPy >= 1.11.1
+  * TensorFlow >= 1.3
+  * librosa
+  * tqdm
+  * matplotlib
+  * scipy
+
 ## Training
   * STEP 0. Download [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/) or prepare your own data.
   (Data file put on AI proj Folder)
