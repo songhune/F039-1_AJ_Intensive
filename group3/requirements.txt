@@ -1,0 +1,14 @@
+#
+####### requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+librosa
+tqdm
+matplotlib
+scipy
+tensorflow
+#
+###### Requirements with Version Specifiers ######
+python >= 2.7
+NumPy >= 1.11.1
+#
