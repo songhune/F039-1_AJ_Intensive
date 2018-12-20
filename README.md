@@ -57,7 +57,8 @@
     └── F039-1_AJ_Intensive
         └── group3
             └── samples
-                └── 1.wav
+                └── 0
+                    └── 1.wav
     ```
     
 ## Test **Korean Alphabetizer**
