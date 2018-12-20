@@ -10,3 +10,16 @@
 ## 주제
 -------
 * Making TTS with his voice
+
+
+## Training
+  * STEP 0. Download [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/) or prepare your own data.
+  * STEP 1. Adjust hyper parameters in `hyperparams.py`. (If you want to do preprocessing, set `prepro` True`.
+  * STEP 2. Run `python train.py`. (If you set `prepro` True, run `python prepro.py` first)
+  * STEP 3. Run `python eval.py` regularly during training.
+
+## Sample Synthesis
+
+We generate speech samples based on [Harvard Sentences](http://www.cs.columbia.edu/~hgs/audio/harvard.html) as the original paper does. It is already included in the repo.
+
+  * Run `python synthesize.py` and check the files in `samples`.
