@@ -14,6 +14,7 @@
 
 ## Training
   * STEP 0. Download [LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/) or prepare your own data.
+  (Data file put on AI proj Folder)
   * STEP 1. Adjust hyper parameters in `hyperparams.py`. (If you want to do preprocessing, set `prepro` True`.
   * STEP 2. Run `python train.py`. (If you set `prepro` True, run `python prepro.py` first)
   * STEP 3. Run `python eval.py` regularly during training.
